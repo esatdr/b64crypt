@@ -28,10 +28,6 @@ cd b64crypt
 
 chmod +x b64crypt.sh
 
-cd ..
-
-mv b64crypt /usr/local/bin/
-
 Usage:
   Encrypt:   echo 'plaintext' | ./b64crypt.sh -e -p <password>
   Decrypt:   echo 'examplebase64cipher' | ./b64crypt.sh -d -p <password>
