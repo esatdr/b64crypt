@@ -28,12 +28,6 @@ cd b64crypt
 
 chmod +x b64crypt.sh
 
-Encrypt a string:
-echo "mytext" | b64crypt -e -p mypassword
-
-Decrypt a Base64 string:
-echo "U2FsdGVkX1..." | b64crypt -d -p mypassword
-
 Usage:
   Encrypt:   echo 'plaintext' | b64crypt -e -p <password>
   Decrypt:   echo 'examplebase64cipher' | b64crypt -d -p <password>
