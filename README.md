@@ -11,7 +11,7 @@ No need for input/output files — it works directly with **standard input and o
 - 🔐 AES-256-CBC encryption with PBKDF2 key derivation
 - 🧾 Base64 output (OpenSSL-compatible)
 - ⚡ No file I/O — just use pipes!
-- 🧪 Great for small secrets and quick testing
+- 🧪 Great for small passwords and quick testing
 - 💡 Just Bash + OpenSSL (no extra dependencies)
 
 ---
