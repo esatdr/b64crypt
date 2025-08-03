@@ -33,5 +33,5 @@ cd ..
 mv b64crypt /usr/local/bin/
 
 Usage:
-  Encrypt:   echo 'plaintext' | b64crypt -e -p <password>
-  Decrypt:   echo 'examplebase64cipher' | b64crypt -d -p <password>
+  Encrypt:   echo 'plaintext' | ./b64crypt.sh -e -p <password>
+  Decrypt:   echo 'examplebase64cipher' | ./b64crypt.sh -d -p <password>
